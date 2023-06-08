@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ContactInfo</h1>
+    <section class="container">
+    <form onsubmit="createcontact(event)">
+        <label for="firstname">First_Name</label>
+        <input type="text" id="id1" name="firstname">
+        <label for="lastname">Last_Name</label>
+        <input type="text" id="id2" name="lastname">
+        <label for="email">Enter_Email</label>
+        <input type="text" id="id3" name="email">
+        <label for="mobilenumber">Mobile_number</label>
+        <input type="number" id="id4" name="mobilenumber">
+        <button>CreateContact</button>
+    </form>
+
+    <ul id="Users"></ul>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
